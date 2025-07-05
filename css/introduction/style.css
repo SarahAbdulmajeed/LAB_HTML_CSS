@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+body { 
+    font-family:"Tajawal", sans-serif;
+    margin: 0;
+    background-color: #f2eee5;
+}
+
+.logo_flower{
+    width: 400px;
+    position: absolute;
+    justify-self: anchor-center;
+    z-index: -1;
+}
+
+.main_table{
+    display: block;
+    border-radius: 40px;
+    width: 75%;
+    justify-self: center;
+    margin: 2% 0%;
+    border: 1px solid #12100a;
+}
+.title { 
+    padding: 50px 20px 10px 20px;
+}
+
+
+.text-container{
+    padding: 0px 6%;
+    text-align: justify;
+    vertical-align: text-top;
+}
+
+
+
+.flowersTable {
+    width: 75%;
+    /*border-collapse: collapse;*/
+    border: 1px solid #e2d4a3;
+    border-radius: 30px;
+    padding: 8px;
+    background-color: #f1e9d9;
+}
+
+
+.flowerTable_subtitle th{
+    background-color: #e2d4a3;
+    border-radius: 30px;
+}
+.flower_element{
+    border-top: 1px solid black;
+}
+
+td img {
+    padding: 5%;
+    filter: drop-shadow(0 6px 3px rgba(0, 0, 0, 0.1))
+
+
+}
+
+.form_section img{
+    height: 400px;
+    position: absolute;
+    margin-left: 5%;
+    z-index: -1;
+    
+}
+
+
+.form-container { 
+    background-color: #eddad4;
+    text-align: center;
+    width: fit-content;
+    justify-self: right;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #e2c4bb;
+    justify-self: center;
+}
+
+.form-container .field {
+    margin-top: 20px;
+}
+
+.form-container .field input[type="text"],.form-container .field textarea{
+    background-color: #f9ebe7;
+    border-radius: 30px;
+    border: 1px solid #dac4be;
+    text-align: center;
+}
+
+.form-container .field input[type="text"]{
+    height: 25px;
+}
+
+.form-container input[type="submit"]{
+    height: 30px;
+    background-color: #dfa08fba;
+    border-radius: 30px;
+    border: 1px solid #d09787;
+}
+
+.form-container input[type="submit"]:hover{
+    background-color: #d09787;
+}
+
